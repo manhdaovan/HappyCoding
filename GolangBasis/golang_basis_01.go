@@ -12,6 +12,8 @@ func main() {
 	// declare variable
 	// var x type
 	// var x type = value
+	// var x, y type = value
+	// var x, y type
 	// var x = value
 	// x := value
 

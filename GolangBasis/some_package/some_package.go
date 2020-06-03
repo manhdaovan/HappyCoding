@@ -6,7 +6,9 @@ func ExportedFunc(a int, b uint64) error {
 }
 
 func unexportedFunc(a string, b float32) (float32, int) {
-	return 2.123, 0
+	f := float32(0.123)
+	n := 2
+	return f, n
 }
 
 func namedReturnFnc(a, b int) (c, d int, err error) {
